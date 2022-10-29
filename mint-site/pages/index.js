@@ -153,7 +153,7 @@ export default function Home() {
             <ConnectWalletButton connectButton={!wallet.connected} className="d-flex" />
           </div>
           <div className="Font-text">
-          <h1>Aptos MummyApe</h1>
+          <h1>Aptos MummyApeNFT</h1>
           <h5><center>{candyMachineData.data.numMintedTokens}/ {COLLECTION_SIZE} minted</center></h5>
           </div>
           <div id="collection-info" className="d-flex flex-column align-items-center text-white" style={{width: "80%"}}>
